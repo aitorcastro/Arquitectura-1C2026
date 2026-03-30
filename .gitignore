@@ -54,4 +54,12 @@ dkms.conf
 # debug information files
 *.dwo
 
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+
 build/
