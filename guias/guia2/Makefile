@@ -22,9 +22,11 @@ run: all
 
 # --- PUSHEAR A GIT ---
 # Uso: make sync MSG="mensaje"
-sync:
+commit:
 	git add .
 	git commit -m "$(MSG)"
+
+push:
 	git push
 
 # --- LIMPIAR ---
