@@ -26,11 +26,9 @@ commit:
 	git add .
 	git commit -m "$(MSG)"
 
-push:
-	git push
 
 # --- LIMPIAR ---
 clean:
 	rm -rf $(BUILD_DIR)
 
-.PHONY: all clean run sync
+.PHONY: all clean run commit
